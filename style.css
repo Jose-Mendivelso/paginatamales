@@ -1,0 +1,193 @@
+Body{
+    font-Family:'Monserrat',sans-serif;
+}
+
+header{
+    background:url(img/fondonavproductos.jpg);
+    padding: 20px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0px; 
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold; 
+    font-size: 22px;
+    text-decoration: none;   
+}
+
+nav a:hover {
+
+    color: rgb(255, 255, 255);
+    /*color: #efb710e3;*/
+    text-decoration:none;
+    font-size : 23px;
+} 
+
+.Productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.main{
+    background:url(img/fondon.jfif) ;
+}
+.Productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: -50px;
+}
+.Productos li:hover{
+    border-color: solid grey ;
+    font-size : 23px;
+    border-radius: 50px;
+    
+}
+.Producto-descripcion{
+    font-size: 22px;
+    color: grey;
+    font-family: cursive;
+}
+.Producto-Valor{
+    font-size: 26px;
+    color:  #BDC3C7     ;
+    font-weight: bold;
+    margin-top: 10;
+}
+.Productos li :hover h2{
+    font-size: 33px;
+}
+.Productos li:active{
+    border-color: rgb(255, 255, 255);
+}
+.Productos h2{
+    font-size : 30px;
+    color: #BFC9CA;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    text-align: center;
+    background: url(img/bg.jpg); 
+    padding: 30px;
+   
+}
+
+.Copyright{
+    color: #BBBBBB;
+    font-size: 15px;
+    margin: 20px;
+}
+/* scc pagina nuestra principal */
+.banner{
+    width: 100%;
+
+}
+
+.Principal{
+    padding: 3em;
+    background: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+    clear: left;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0 20px;
+    
+}
+
+.Principal p{
+    margin: 0 0 1em;
+}
+
+.Principal strong{
+    font-weight: bold;
+}
+
+.Principal em{
+    font-style: italic;
+}
+
+.utensilios{
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#fefefe,#888888);
+}
+
+.mapa p{
+    margin: 0 0 2em 2em;
+    text-align: center;
+}
+
+.Mapa-contenido {
+    width: 940px;
+    margin: 0 auto;   
+}
+
+.Diferenciales{
+    padding: 3em 0;
+    background: #888888;
+}
+.Contenido-Diferenciales{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-diferenciales{
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+.items{
+    line-height: 1.5;
+}
+.items::before{
+    content: "⭐ ";
+}
+.items:first-child{
+    font-weight: bold;
+}
+.imagen-diferenciales{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 15px #000000 ;
+}
+.imagen-diferenciales:hover{
+    opacity: 0.3;
+}
+.video{
+    width: 760px;
+    margin: 1em auto;
+    height: 250px;
+}
